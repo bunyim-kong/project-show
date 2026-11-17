@@ -2,84 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A collection of web projects by Kong Bunyim.">
     <title>My Projects</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header class="header">
+        <p class="label">PORTFOLIO</p>
         <h1>My Projects</h1>
-        <p>This is my work from my learning journey</p>
+        <p class="subtitle">A collection of websites I have designed and developed.</p>
     </header>
 
-    <!-- FSD SECTION -->
-    <section class="section">
-        <h2 class="section-title">FSD Projects</h2>
+    <main>
+        <section class="section" aria-labelledby="projects-title">
+            <div class="section-heading">
+                <h2 id="projects-title">Projects</h2>
+                <span>9 projects</span>
+            </div>
 
-        <div class="projects">
+            <div class="projects">
+                <article class="project-card project-card--balance">
+                    <a href="https://new-balance-three.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Visit New Balance website">
+                        <div class="project-visual project-placeholder"><strong>NB</strong></div>
+                        <span class="live-pill"><span></span> Live website</span>
+                        <div class="project-overlay"><span class="project-category">Retail concept</span><h3>New Balance</h3><p>A sportswear retail website.</p><span class="project-open">↗</span></div>
+                    </a>
+                </article>
 
-            <a href="https://68b47482d231841e4de538f7--jade-cucurucho-bcbc9c.netlify.app/" class="project" target="_blank">
-                <h3>New Balance</h3>
-                <p>Free time do play play.</p>
-            </a>
+                <article class="project-card">
+                    <a href="https://bunyim-kong.github.io/Interior/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Visit X-Tra Interior website">
+                        <div class="project-visual"><img src="https://raw.githubusercontent.com/bunyim-kong/portfolio-vue/main/public/images/project-interior.jpg" alt="Interior design from X-Tra Interior" loading="lazy"></div>
+                        <span class="live-pill"><span></span> Live website</span>
+                        <div class="project-overlay"><span class="project-category">Design & interiors</span><h3>X-Tra Interior</h3><p>An image-led interior design website.</p><span class="project-open">↗</span></div>
+                    </a>
+                </article>
 
-            <a href="https://bunyim-kong.github.io/Interior/" class="project" target="_blank">
-                <h3>X-Tra Interior</h3>
-                <p>Do play play too.</p>
-            </a>
+                <article class="project-card">
+                    <a href="https://bunyim-kong.github.io/LMLP-Tourism/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Visit LMLP Tourism website">
+                        <div class="project-visual"><img src="https://raw.githubusercontent.com/bunyim-kong/portfolio-vue/main/public/images/project-tourism.jpg" alt="Angkor Wat from LMLP Tourism" loading="lazy"></div>
+                        <span class="live-pill"><span></span> Live website</span>
+                        <div class="project-overlay"><span class="project-category">Travel & discovery</span><h3>LMLP Tourism</h3><p>A travel guide to Cambodia.</p><span class="project-open">↗</span></div>
+                    </a>
+                </article>
 
-            <a href="https://bunyim-kong.github.io/organic-farm/" class="project" target="_blank">
-                <h3>Organic Farm</h3>
-                <p>The first project of my life.</p>
-            </a>
+                <article class="project-card">
+                    <a href="https://bunyim-kong.github.io/Cafe-shop/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Visit Coffee Shop website">
+                        <div class="project-visual"><img src="https://raw.githubusercontent.com/bunyim-kong/portfolio-vue/main/public/images/project-cafe.png" alt="Coffee cup artwork from Coffee Shop" loading="lazy"></div>
+                        <span class="live-pill"><span></span> Live website</span>
+                        <div class="project-overlay"><span class="project-category">Food & hospitality</span><h3>Coffee Shop</h3><p>A visual café and menu website.</p><span class="project-open">↗</span></div>
+                    </a>
+                </article>
 
-            <a href="https://bunyim-kong.github.io/LMLP-Tourism/" class="project" target="_blank">
-                <h3>LMLP Tourism</h3>
-                <p>The project in FSD of the SoB-A class.</p>
-            </a>
+                <article class="project-card">
+                    <a href="https://real-estate-starter-eta.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Visit Apple Real Estate website">
+                        <div class="project-visual"><img src="https://raw.githubusercontent.com/bunyim-kong/portfolio-vue/main/public/images/project-estate.jpg" alt="Property from Apple Real Estate" loading="lazy"></div>
+                        <span class="live-pill"><span></span> Live website</span>
+                        <div class="project-overlay"><span class="project-category">Property & real estate</span><h3>Apple Real Estate</h3><p>A property showcase website.</p><span class="project-open">↗</span></div>
+                    </a>
+                </article>
 
-            <a href="https://bunyim-kong.github.io/Skincare/" class="project" target="_blank">
-                <h3>Skincare</h3>
-                <p>The skincare project practice in FSD.</p>
-            </a>
+                <article class="project-card project-card--hospital">
+                    <a href="http://jubha-hospital.test/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Visit Jubha Hospital website">
+                        <div class="project-visual project-placeholder"><strong>+</strong></div>
+                        <span class="live-pill"><span></span> Local website</span>
+                        <div class="project-overlay"><span class="project-category">Healthcare</span><h3>Jubha Hospital</h3><p>A hospital management website.</p><span class="project-open">↗</span></div>
+                    </a>
+                </article>
 
-            <a href="https://bunyim-kong.github.io/Cafe-shop/" class="project" target="_blank">
-                <h3>Coffee shiop</h3>
-                <p>The project in FSD of the SoB-A class.</p>
-            </a>
-        </div>
-    </section>
+                <article class="project-card project-card--clinic">
+                    <a href="http://ohana-clinic.test/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Visit Ohana Clinic website">
+                        <div class="project-visual project-placeholder"><strong>O</strong></div>
+                        <span class="live-pill"><span></span> Local website</span>
+                        <div class="project-overlay"><span class="project-category">Clinic management</span><h3>Ohana Clinic</h3><p>A clinic scheduling website.</p><span class="project-open">↗</span></div>
+                    </a>
+                </article>
 
-    <!-- C1 SECTION -->
-    <section class="section">
-        <h2 class="section-title">C1 Projects</h2>
+                <article class="project-card project-card--cherry">
+                    <a href="https://cherry-cheek.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Visit Cherry Cheeks website">
+                        <div class="project-visual project-placeholder"><strong>CC</strong></div>
+                        <span class="live-pill"><span></span> Live website</span>
+                        <div class="project-overlay"><span class="project-category">Beauty & skincare</span><h3>Cherry Cheeks</h3><p>A beauty and skincare website.</p><span class="project-open">↗</span></div>
+                    </a>
+                </article>
 
-        <div class="projects">
-            <a href="https://bunyim-kong.github.io/portfolio/" class="project" target="_blank">
-                <h3>Portfolio</h3>
-                <p>We exchange the project by doing the portfolio for your friend.</p>
-            </a>
-
-            <a href="https://real-estate-kh.netlify.app/" class="project" target="_blank">
-                <h3>Apple Real Estate</h3>
-                <p>This project is about the real estate of rent and buy house/ appartment/ condo/ Villa..etc.</p>
-            </a>
-
-            <a href="http://myung_mart.test/" class="project" target="_blank">
-                <h3>Korean mart</h3>
-                <p>Selling the skincare product and can let the admin add and change or delete the product.</p>
-            </a>
-
-            <a href="http://ohana-clinic.test/" class="project" target="_blank">
-                <h3>Japen Clinic</h3>
-                <p>A clinic website that can let the doctor custom their schedule.</p>
-            </a>
-        </div>
-    </section>
+                <article class="project-card project-card--weather">
+                    <a href="https://weather-one-bay.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Visit Weather application">
+                        <div class="project-visual project-placeholder"><strong>27°</strong></div>
+                        <span class="live-pill live-pill--progress"><span></span> In progress</span>
+                        <div class="project-overlay"><span class="project-category">Weather application</span><h3>Weather</h3><p>A simple weather application.</p><span class="project-open">↗</span></div>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
-        <p>© 2026 Kong Bunyim - WMAD C1</p>
+        <p>© 2026 Kong Bunyim</p>
     </footer>
-
 </body>
 </html>
