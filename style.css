@@ -24,12 +24,12 @@ body {
 .header,
 .section,
 .footer {
-    width: min(100% - 32px, 900px);
+    width: min(100% - 32px, 1280px);
     margin-inline: auto;
 }
 
 .header {
-    padding: 64px 0 36px;
+    padding: 34px 0 16px;
 }
 
 .label {
@@ -119,24 +119,6 @@ body {
     z-index: -1;
     background: linear-gradient(0deg, rgba(20, 16, 16, 0.94) 0%, rgba(20, 16, 16, 0.52) 52%, transparent 90%);
 }
-
-.project-placeholder {
-    display: grid;
-    place-items: center;
-    background: linear-gradient(135deg, #264a91, #587ed8);
-}
-
-.project-placeholder strong {
-    color: rgba(255, 255, 255, 0.88);
-    font-size: clamp(3.4rem, 7vw, 5.2rem);
-    line-height: 1;
-    letter-spacing: -0.08em;
-}
-
-.project-card--hospital .project-placeholder { background: linear-gradient(135deg, #14866f, #72c5ac); }
-.project-card--clinic .project-placeholder { background: linear-gradient(135deg, #6756a5, #b1a6dd); }
-.project-card--cherry .project-placeholder { background: linear-gradient(135deg, #b32e63, #f193b6); }
-.project-card--weather .project-placeholder { background: linear-gradient(135deg, #182342, #5972a9); }
 
 .live-pill {
     position: absolute;
